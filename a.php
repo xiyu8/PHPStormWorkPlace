@@ -306,6 +306,7 @@ class Login{
 			$flag=true;
 			while ($jg= $result2->fetch())
 			{
+
 				if($jg->number==$this->username && $jg->password==$this->pwd){
 					$flag=true;
 			}
